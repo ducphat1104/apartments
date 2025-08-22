@@ -15,7 +15,7 @@ if missing_files:
 
 # Tải các mô hình và preprocessor
 try:
-    stacking_model = joblib.load('stacking_model.pkl')
+    stacking_model = joblib.load('stacking_model_compressed.pkl')
     xgb_high_model = joblib.load('xgb_high_model.pkl')
     preprocessor = joblib.load('preprocessor.pkl')
     feature_cols = joblib.load('feature_cols.pkl')
