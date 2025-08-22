@@ -9,10 +9,10 @@ import gdown
 # 📌 Google Drive file IDs
 # =========================
 drive_files = {
-    "stacking_model_compressed.pkl": "https://drive.google.com/file/d/1ADhSieG5HC2ftI3xRAeeko1lGw5T5hsH/view?usp=drive_link",
-    "xgb_high_model.pkl": "https://drive.google.com/file/d/1kFdlAz42Lr0tW9ZauowVmpAb-Bjw3-Xi/view?usp=drive_link",
-    "preprocessor.pkl": "https://drive.google.com/file/d/1eNTL0lfM4sgTUTEV8c_3FgTyEqGi71Sb/view?usp=drive_link",
-    "feature_cols.pkl": "https://drive.google.com/file/d/1modXbe-boRu-znzHdwu9HHKmITCV_IZZ/view?usp=sharing"
+    "stacking_model_compressed.pkl": "1ADhSieG5HC2ftI3xRAeeko1lGw5T5hsH",
+    "xgb_high_model.pkl": "1kFdlAz42Lr0tW9ZauowVmpAb-Bjw3-Xi",
+    "preprocessor.pkl": "1eNTL0lfM4sgTUTEV8c_3FgTyEqGi71Sb",
+    "feature_cols.pkl": "1modXbe-boRu-znzHdwu9HHKmITCV_IZZ"
 }
 
 # =========================
