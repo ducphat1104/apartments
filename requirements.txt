@@ -1,8 +1,7 @@
 streamlit==1.38.0
 pandas==2.2.2
 numpy==2.0.2
-joblib==1.5.1
-xgboost==3.0.4
 scikit-learn==1.6.1
-category_encoders==2.6.3
-
+joblib==1.5.1
+xgboost==3.0.3   # fix version
+category-encoders==2.6.3
