@@ -30,7 +30,7 @@ def predict_price(input_data):
         input_df = pd.DataFrame([input_data], columns=feature_cols)
 
         # Dự đoán bằng Stacking (log scale)
-        pred_log = stacking_model.predict(input_df)
+        pred_log = stacking_model_compressed.predict(input_df)
         pred = np.expm1(pred_log)[0]
 
         # Nếu giá dự đoán > 1795, dùng mô hình XGBoost giá cao
