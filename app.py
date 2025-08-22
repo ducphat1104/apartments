@@ -3,7 +3,8 @@ import pandas as pd
 import numpy as np
 import joblib
 import os
-
+import warnings
+warnings.filterwarnings("ignore", category=UserWarning, module="pickle")
 # Kiểm tra sự tồn tại của các file .pkl
 required_files = ['stacking_model_compressed.pkl', 'xgb_high_model.pkl', 'preprocessor.pkl', 'feature_cols.pkl']
 missing_files = [f for f in required_files if not os.path.exists(f)]
